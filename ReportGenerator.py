@@ -9,7 +9,7 @@ import time
 class ReportGenerator(object):
     """
     Class which generating report in PDF format, and saving this report in the same directory with
-    program
+    program.
     """
 
     def __init__(self, task):
