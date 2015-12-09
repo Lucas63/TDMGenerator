@@ -61,6 +61,7 @@ class ReportGenerator(object):
         self.insertParagraph("<strong>Abstract. </strong>On the set of alternatives Omega given ratio"
                              " of benefits R presented by adjacency matrix", self.styles["Normal"], space)
         self.insertTable(map(list, list(self.task.relation.getMatrix().A)))
+
         self.insertParagraph(self.tableSignature("Adjacency matrix of relation R"), bodyStyle, space)
 
         # Exercise one
